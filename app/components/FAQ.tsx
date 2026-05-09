@@ -8,27 +8,27 @@ const faqs = [
   {
     question: "Czy AniFlex jest darmowy?",
     answer:
-      "Tak – aplikacja jest w 100% darmowa i tworzona przez społeczność. Bez reklam, bez subskrypcji, bez ukrytych opłat.",
+      "Tak - aplikacja jest w 100% darmowa i tworzona przez spolecznosc. Bez reklam, bez subskrypcji, bez ukrytych oplat.",
   },
   {
-    question: "Skąd pochodzą treści?",
+    question: "Skad pochodza tresci?",
     answer:
-      "AniFlex agreguje linki z publicznych serwisów: animezone.pl, shinden.pl, ogladajanime.pl i desu-online.pl. Aplikacja nie hostuje żadnych plików wideo – działa jak wyszukiwarka treści dostępnych w sieci.",
+      "AniFlex agreguje linki z publicznych serwisow: animezone.pl, shinden.pl, ogladajanime.pl i desu-online.pl. Aplikacja nie hostuje zadnych plikow wideo - dziala jak wyszukiwarka tresci dostepnych w sieci.",
   },
   {
-    question: "Jak zainstalować na Android TV?",
+    question: "Jak zainstalowac na Android TV?",
     answer:
-      "Pobierz plik .apk z naszej strony (przycisk "Pobierz na Androida"). Możesz go przesłać na telewizor przez aplikację "Wyślij pliki do TV" dostępną w Google Play, a następnie uruchomić instalator.",
+      "Pobierz plik .apk z naszej strony, klikajac przycisk Pobierz na Androida. Nastepnie przeslij go na telewizor przez aplikacje Wyslij pliki do TV dostepna w Google Play i uruchom instalator.",
   },
   {
-    question: "Czy jeden APK działa zarówno na telefonie jak i Android TV?",
+    question: "Czy jeden APK dziala zarowno na telefonie jak i Android TV?",
     answer:
-      "Tak. AniFlex automatycznie wykrywa typ urządzenia i dostosowuje interfejs – mobilny układ na smartfonie, TV-friendly na telewizorze.",
+      "Tak. AniFlex automatycznie wykrywa typ urzadzenia i dostosowuje interfejs - mobilny uklad na smartfonie, TV-friendly na telewizorze.",
   },
   {
     question: "Czy aplikacja jest bezpieczna?",
     answer:
-      "Aplikacja nie zbiera żadnych danych osobowych, nie wymaga rejestracji ani logowania. Kod źródłowy jest dostępny publicznie na GitHubie.",
+      "Aplikacja nie zbiera zadnych danych osobowych, nie wymaga rejestracji ani logowania. Kod zrodlowy jest dostepny publicznie na GitHubie.",
   },
 ];
 
@@ -53,7 +53,7 @@ export default function FAQ() {
             className="font-mono text-xs uppercase tracking-[0.2em] mb-3 block"
             style={{ color: "#3F7340" }}
           >
-            Pytania & Odpowiedzi
+            Pytania &amp; Odpowiedzi
           </span>
           <h2 className="font-display text-5xl md:text-6xl text-white">
             Masz <span style={{ color: "#3F7340" }}>pytania?</span>
