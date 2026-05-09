@@ -18,7 +18,7 @@ const faqs = [
   {
     question: "Jak zainstalować na Android TV?",
     answer:
-      "Pobierz plik .apk z naszej strony (przycisk „Pobierz na Androida"). Możesz go przesłać na telewizor przez aplikację „Wyślij pliki do TV" dostępną w Google Play, a następnie uruchomić instalator.",
+      "Pobierz plik .apk z naszej strony (przycisk "Pobierz na Androida"). Możesz go przesłać na telewizor przez aplikację "Wyślij pliki do TV" dostępną w Google Play, a następnie uruchomić instalator.",
   },
   {
     question: "Czy jeden APK działa zarówno na telefonie jak i Android TV?",
