@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@theme {
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-sans: 'Barlow', sans-serif;
+
+  /* AniFlex / GKS Katowice palette */
+  --yellow: #FAE000;
+  --yellow-dim: #c9b400;
+  --yellow-glow: rgba(250, 224, 0, 0.18);
+  --green: #3F7340;
+  --green-dim: #2d5430;
+  --green-glow: rgba(63, 115, 64, 0.25);
+  --black: #222221;
+  --black-deep: #0f0f0e;
+  --black-card: #1a1a19;
+  --black-border: rgba(250, 224, 0, 0.08);
+  --white: #ffffff;
+  --muted: rgba(255,255,255,0.45);
+}
+
+:root {
+  --background: var(--black-deep);
+  --foreground: var(--white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Yellow text selection */
+::selection {
+  background: rgba(250, 224, 0, 0.25);
+  color: #FAE000;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--black-deep); }
+::-webkit-scrollbar-thumb { background: #3a3a38; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--green); }
+
+/* Diagonal stripe texture overlay (subtle) */
+.stripe-bg {
+  background-image: repeating-linear-gradient(
+    -55deg,
+    transparent,
+    transparent 8px,
+    rgba(250, 224, 0, 0.02) 8px,
+    rgba(250, 224, 0, 0.02) 9px
+  );
+}
+
+/* Yellow glow utility */
+.glow-yellow {
+  box-shadow: 0 0 40px -10px var(--yellow-glow), 0 0 80px -20px var(--yellow-glow);
+}
+
+/* Green glow utility */
+.glow-green {
+  box-shadow: 0 0 40px -10px var(--green-glow), 0 0 80px -20px var(--green-glow);
+}
+
+/* Display font utility */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
